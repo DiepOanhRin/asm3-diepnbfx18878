@@ -1,0 +1,251 @@
+@media screen and (max-width: 768px) {
+  #tablet,
+  #laptop {
+    display: none;
+  }
+  * {
+    /* margin: auto; */
+    box-sizing: border-box;
+  }
+  /* PHAN 1 */
+  .dau {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(./../images/bannermobile.jpg);
+    height: 150vh;
+    position: relative;
+    background-size: cover;
+    color: #fff;
+  }
+
+  #banner {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* #mobile h1 {
+    font-size: 52px;
+    margin-bottom: 8px;
+  } */
+  span {
+    color: #ced4da;
+  }
+
+  /* PHAN 2 */
+
+  /* section > .container {
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 200px 150px 150px 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .container a:link,
+  .container a:visited {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .tt {
+    color: black;
+    padding: 24px 0;
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    border-left: 1px solid #f1f3f5;
+    align-items: center;
+  }
+  .ll {
+    padding: 24px 0;
+    width: 100%;
+    height: 100%;
+    grid-column: 3/4;
+    border-left: 1px solid #f1f3f5;
+  }
+  .nav-giua {
+    padding: 24px 0;
+    width: 100%;
+    grid-column: 4/5;
+    display: block;
+    border-left: 1px solid #f1f3f5;
+    position: relative;
+    text-align: center;
+  }
+  .nav-giua img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.488);
+    box-shadow: 2px 2px 4px 4px #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translate(-50%, -50%);
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .cc {
+    padding: 24px 0;
+    width: 100%;
+    height: 100%;
+    grid-column: 5/6;
+    border-left: 1px solid #f1f3f5;
+  }
+  .da {
+    padding: 24px 0;
+    width: 100%;
+    height: 100%;
+    grid-column: 6/7;
+    border-left: 1px solid #f1f3f5;
+    border-right: 1px solid #f1f3f5;
+  } */
+
+  /* PHAN 3 */
+
+  .container1 {
+    display: inline-block;
+    /* grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center; */
+  }
+  #personal-info {
+    background-color: #e9ecef;
+  }
+
+  /* PHAN 4 */
+  .container2 {
+    display: inline-block;
+  }
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-tools-2,
+  .ic-mic,
+  .ic-telescope {
+    font-size: 52px;
+    margin-left: 50px;
+    color: #adb5bd;
+  }
+  ul li span {
+    background-color: #1c7ed6;
+    border-radius: 5px;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 48px;
+    height: 48px; */
+    gap: 20px;
+  }
+
+  .sth-icon i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #1c7ed6 2px solid;
+    padding: 12px;
+    margin-left: 32px;
+  }
+  .a,
+  .b {
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    margin-right: 12px;
+  }
+  .a {
+    background-color: #1c7ed6;
+  }
+  .b {
+    background-color: #adb5bd;
+  }
+  .language li,
+  .skill li {
+    margin-bottom: 24px;
+  }
+  /* PHAN 5 */
+  .cc-gt {
+    display: inline-block;
+  }
+  .cc-gt1 {
+    display: inline-block;
+  }
+  .cc-gt2 {
+    display: inline-block;
+    border: none;
+  }
+
+  .cc-gt3 {
+    display: inline-block;
+    border: none;
+  }
+  img {
+    width: 470px;
+  }
+
+  /* .cc-gt {
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 50% 50%;
+    justify-content: center; 
+  } */
+
+  /* PHAN 6 DU AN */
+  .nam-hd-vt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .nam-hd-vt button {
+    border-radius: 12px;
+    width: 64px;
+    height: 24px;
+    display: block;
+    background-color: #1c7ed6;
+    color: #e9ecef;
+  }
+
+  .ds-project {
+    display: inline-block;
+  }
+
+  /* PHAN 7 CONTACTS */
+  footer a:link,
+  footer a:visited {
+    color: #444;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 8vw;
+  }
+
+  /* #footer ul li {
+    display: inline-block;
+    margin: 24px 8px 32px 24px;
+  }
+  
+  #footer {
+    position: relative;
+  }
+  .container5 {
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+  } */
+}
